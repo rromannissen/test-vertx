@@ -8,6 +8,7 @@ import rx.Single;
 /**
  * A CRUD to SQL interface
  */
+//Test
 public interface Store {
 
   Single<JsonObject> create(JsonObject item);
